@@ -1,0 +1,13 @@
+services:
+  react-ssr:
+    build: ../react-ssr
+    ports:
+      - "5173:5173"
+  angular-ssr:
+    build: ../angular-ssr
+    ports:
+      - "4000:4000"
+  shell:
+    build: .
+    ports:
+      - "8080:8080"
