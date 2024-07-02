@@ -1,0 +1,19 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>MFEs with ServerSide SSI</title>
+  </head>
+  <body>
+    <div>
+      <!--# include file="$HEADER.html" -->
+    </div>
+    <main>
+      <!--# include file="$PAGE.html" -->
+      <!--# include virtual="/@react"-->
+      <!--# include virtual="/@angular"-->
+    </main>
+    <div>
+      <!--# include file="$FOOTER.html" -->
+    </div>
+  </body>
+</html>

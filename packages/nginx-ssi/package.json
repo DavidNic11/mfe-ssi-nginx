@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
+    "build:header": "vite build --input=./src/Header/header.html",
     "preview": "vite preview"
   },
   "devDependencies": {
